@@ -41,4 +41,4 @@ Parachute Health should focus on three types of facilities in order to most effi
 ### Question 4: How would you prioritize which facilities to target?
 - First and foremost I would target the 28 facilities who have the same attributes as the already converted facilities. 
 - Next, I would focus on the states with the biggest disparity between population and facility agreements. 
-- Finally, I would 
+- Finally, I would decide if Parachute is chasing facilities or order volume.  If it is truly chasing more Facilities then I would target the ambulatory practices and if its chasing order volume then I would go after the sleep labs and hospitals first. 
