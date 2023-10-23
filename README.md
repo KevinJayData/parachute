@@ -52,3 +52,4 @@ Parachute Health should focus on two types of facilities in order to most effici
 - If we had revenue per order then we'd really be able to tell the value that each facility brings to Parachutes bottom line. 
 - With a column for 'failed_orders' we could also determine if there are problem facilities in the network that we might want to improve or even exclude until a process improvement can be implemented. 
 - In general, having data on each order's revenue, costs, fail rate, etc... would drive a better analysis. 
+- Data on median time to order and delivery. 
