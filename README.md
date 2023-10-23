@@ -1,8 +1,12 @@
 # Parachute Health Take Home Assessment 
 
 
-### Navigation
-- Please find the Jupyter Notebook `parachute_assessment.ipynb` 
+### Audience
+This presentation is for executive or non-technical stakeholders.  
+For anyone interested in the data work please visit the file `parachute_assessment.ipynb` 
+
+### Navigation and running locally
+- Please find the Jupyter Notebook `parachute_assessment.ipynb` for all python work. 
 - Change the download folder to your own dataset filepath. 
   - Notice the .ipynb file calls out my own Downloads folder. 
 
