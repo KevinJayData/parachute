@@ -12,10 +12,10 @@
 
 
 ### Abstract
-Parachute Health should focus on three types of facilities in order to most efficiently grow their network:
-1. Parachute should look at the attributes of the converted facilities and find unconverted facilities who match and target them since they are active users. In this case, the median time to conversion was 31 days with a median of 23 orders. Using these metrics we can find 28 facilities who are "super users" that should be converted to the network. 
-2. Parachute should have facility agreement numbers that match actual state population distributions.  I.e. California is the highest population state with presumably the most number of potential facilities, yet its 4th in the facility population list.  Ohio is 7th by population buy 3rd in Parachute. Conversion rate by state is very consistent so that tells me there are no roadblocks like regulations, etc.. that stand in the way of conversion.  The facilities agreements list needs to match state populations in order to drive more conversions in nominal numbers. 
-
+Parachute Health should focus on two types of facilities in order to most efficiently grow their network:
+1. Parachute should look at the attributes of the converted facilities and find unconverted facilities with similar attributes. In this case, the median time to conversion was 31 days with a median of 23 orders. Using these metrics we can find 28 facilities who are "super users" that should be converted to the network. 
+2. Parachute should have facility agreement numbers that match actual state population distributions.  I.e. California is the highest population state with presumably the most number of potential facilities, yet its 4th in the facility population list.  Ohio is 7th by population but 3rd in Parachute's data. Conversion rate by state is very consistent (40%) so that tells me there are no roadblocks like regulations, etc.. that stand in the way of conversion.  The facilities agreements list needs to match state populations in order to drive more conversions in nominal numbers. 
+3. Parachute should determine if conversion is important or order volume.  There are more ambulatory practice facilities but with a middling number of orders per facility.  However some Facility types like sleep labs have over 6x as many orders per facility.  Should the focus be on the number of facilities or the number of orders?  Having the revenue per order would help answer this question. 
 
 ### Question 1: How would you define conversion?
 - Conversion is defined by the converted_at column. 
@@ -42,3 +42,9 @@ Parachute Health should focus on three types of facilities in order to most effi
 - First and foremost I would target the 28 facilities who have the same attributes as the already converted facilities. 
 - Next, I would focus on the states with the biggest disparity between population and facility agreements. 
 - Finally, I would decide if Parachute is chasing facilities or order volume.  If it is truly chasing more Facilities then I would target the ambulatory practices and if its chasing order volume then I would go after the sleep labs and hospitals first. 
+
+
+### My Own Questions to Parachute and Missing Data
+- If we had revenue per order then we'd really be able to tell the value that each facility brings to Parachutes bottom line. 
+- With a column for 'failed_orders' we could also determine if there are problem facilities in the network that we might want to improve or even exclude until a process improvement can be implemented. 
+- In general, having data on each order's revenue, costs, fail rate, etc... would drive a better analysis. 
